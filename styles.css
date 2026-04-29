@@ -59,8 +59,8 @@ strong {
 }
 
 .top-text {
-  font-size: 0.875rem;
-  font-weight: 900;
+  font-size: 0.975rem;
+  font-weight:bolder;
   padding-top: 0.25em;
   border-top: 5px solid;
   order: -1;
@@ -98,8 +98,8 @@ strong {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("images/intro-bg.png") center/cover;
-  opacity: 0.15;
+  background: url("images/intro-bg.png") center/cover no-repeat;
+  
   pointer-events: none;
 }
 
