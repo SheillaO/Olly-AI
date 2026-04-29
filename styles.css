@@ -5,14 +5,15 @@
 }
 
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Cormorant Garamond", serif;
   color: #404040;
   margin: 0;
 }
 
+
 h1 {
   font-size: 2.5rem;
-  font-weight: 400;
+  font-weight: 300;
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   line-height: 1.2;
   letter-spacing: -0.02em;
@@ -29,16 +30,22 @@ p {
   font-size: 1.125rem;
   line-height: 1.6;
   color: #525252;
-   text-align: justify;
+  text-align: justify;
 }
 
 strong {
-    font-weight: 600;
-    color: #1a1a1a;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+.beta-text,
+.top-text,
+.subheading {
+  text-transform: uppercase;
 }
 
 .beta-text {
-  font-weight: 900;
+  font-weight: 700;
   letter-spacing: 0.5px;
   font-size: 0.95rem;
 }
@@ -49,12 +56,6 @@ strong {
   margin-bottom: 0.5em;
   font-size: 1rem;
   letter-spacing: 0.3px;
-}
-
-.beta-text,
-.top-text,
-.subheading {
-  text-transform: uppercase;
 }
 
 .top-text {
@@ -75,12 +76,12 @@ strong {
   margin-top: 1.5em;
 }
 
+
 .intro,
 .main-content {
   display: flex;
   flex-direction: column;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding: 0 2em;
 }
 
 .intro {
@@ -89,7 +90,6 @@ strong {
   text-align: center;
   color: #fff;
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  background-size: cover;
   padding-bottom: 1.5em;
   position: relative;
 }
@@ -97,12 +97,8 @@ strong {
 .intro::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url("images/intro-bg.png");
-  background-size: cover;
+  inset: 0;
+  background: url("images/intro-bg.png") center/cover;
   opacity: 0.15;
   pointer-events: none;
 }
@@ -118,6 +114,12 @@ strong {
   background: #fafafa;
 }
 
+.main-content p,
+form {
+  max-width: 450px;
+}
+
+
 .img-main {
   width: 120px;
   border-radius: 50%;
@@ -130,11 +132,7 @@ strong {
   transform: scale(1.05);
 }
 
-.main-content p,
-form {
-  max-width: 450px;
-}
-
+/* === FORM === */
 input,
 button {
   font-family: inherit;
@@ -166,6 +164,7 @@ input::placeholder {
   color: #9ca3af;
 }
 
+/* === BUTTONS === */
 .btn {
   text-transform: uppercase;
   font-weight: 900;
@@ -215,6 +214,8 @@ input::placeholder {
   transform: translateY(0);
   box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
+
+/* === RESPONSIVE === */
 @media (min-width: 576px) {
   body {
     display: flex;
@@ -246,6 +247,7 @@ input::placeholder {
     padding-top: 0;
   }
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   * {
