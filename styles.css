@@ -10,7 +10,6 @@ body {
   margin: 0;
 }
 
-
 h1 {
   font-size: 2.5rem;
   font-weight: 300;
@@ -60,7 +59,7 @@ strong {
 
 .top-text {
   font-size: 0.975rem;
-  font-weight:bolder;
+  font-weight: bolder;
   padding-top: 0.25em;
   border-top: 5px solid;
   order: -1;
@@ -75,7 +74,6 @@ strong {
   color: #858585;
   margin-top: 1.5em;
 }
-
 
 .intro,
 .main-content {
@@ -99,8 +97,7 @@ strong {
   position: absolute;
   inset: 0;
   background: url("images/intro-bg.png") center/cover no-repeat;
-  
-  pointer-events: none;
+  opacity: 0.5;
 }
 
 .intro > * {
@@ -118,7 +115,6 @@ strong {
 form {
   max-width: 450px;
 }
-
 
 .img-main {
   width: 120px;
@@ -272,7 +268,6 @@ input::placeholder {
     padding-top: 0;
   }
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   * {
