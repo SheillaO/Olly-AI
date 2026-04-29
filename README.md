@@ -4,7 +4,7 @@ A diagnostic maintenance service that keeps AI-generated and no-code application
  
 <br><br>
  
-[**🚀 Start Monitoring**](#) | [**📊 View Diagnostic Playbook**](#)
+[**🚀 Start Monitoring**](https://github.com/SheillaO/Olly-AI) | [**📊 View Diagnostic Playbook**](https://olly-ai.netlify.app/)
  
 ---
 
