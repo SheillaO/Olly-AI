@@ -206,4 +206,57 @@ input::placeholder {
     transform: translateY(0);
     box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
+ @media (min-width: 576px) {
+    body {
+        display: flex;
+    }
+    
+    h1 {
+        font-size: 5vw;
+    }
+    
+    h2 {
+        font-size: 2.625rem;
+    }
+    
+    .beta-text {
+        font-size: 1.25rem;
+    }
+    
+    .intro,
+    .main-content {
+        width: 50%;
+    }
+    
+    .intro {
+        min-height: 100vh;
+    }
+    
+    .main-content {
+        justify-content: center;
+        padding-top: 0;
+    }
+}
+ 
+/* =================
+    Enhanced Details
+   ================= */
+ 
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+ 
+/* Focus visible for accessibility */
+:focus-visible {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+}
+ 
+/* Selection styling */
+::selection {
+    background-color: #667eea;
+    color: white;
+}
  
