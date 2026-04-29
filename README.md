@@ -297,7 +297,7 @@ const performanceProfile = {
  
 The AI-builder revolution promised "anyone can build an app." It delivered. What it didn't promise: "anyone can maintain an app." That's the gap.
  
-Nightlamp exists because:
+Olly AI exists because:
 - **Founders shouldn't debug auto-generated code at 3am**
 - **One broken webhook shouldn't kill a paying customer relationship**
 - **Maintenance shouldn't cost more than the original build**
@@ -392,20 +392,9 @@ Nightlamp's diagnostic playbook is **open-source** (MIT License). If you've debu
 - Transparency builds trust with privacy-conscious founders
 ---
  
-## Team
+
  
-**Sheilla O.** — Founder  
-Product-minded developer with experience maintaining 50+ no-code apps for emerging market startups. Previously built healthcare tracking tools (MoodMap), B2B SaaS (Bahari Leads), and privacy tech (GDPR Consent Manager).
- 
-**Advisors:**
-- Former Bubble Head of Customer Success
-- Ex-Stripe Developer Advocate (webhooks expertise)
-- YC Partner (portfolio maintenance insights)
----
- 
-## Contact
- 
-**🌐 Website:** [nightlamp.io](#)  
+**🌐 Website:** [https://olly-ai.netlify.app/](#)  
 
  
 ---
