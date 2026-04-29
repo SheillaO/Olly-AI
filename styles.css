@@ -215,6 +215,31 @@ input::placeholder {
   box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
 }
 
+.footer {
+  padding: 40px 20px;
+  text-align: center;
+  background: #fafafa;
+  border-top: 1px solid #e5e5e5;
+  margin-top: 60px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 8px;
+}
+
+.footer a {
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.footer a:hover {
+  border-bottom: 1px solid #1a1a1a;
+}
+
 /* === RESPONSIVE === */
 @media (min-width: 576px) {
   body {
