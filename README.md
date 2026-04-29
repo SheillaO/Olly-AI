@@ -150,19 +150,19 @@ const performanceProfile = {
 - **White-glove ($499/mo):** 30-minute response, dedicated Slack channel, post-incident reports
 ---
  
-## Why Founders Choose Nightlamp
+## Why Founders Choose Olly AI
  
 ### Case Study: SaaS App Built with Cursor
  
 **Scenario:** A founder used Cursor to build a customer support ticketing system in 3 weeks. Launched to 50 beta users. Day 47: Stripe webhook signature verification failed after Stripe deprecated `stripe-signature` header format.
  
-**Without Nightlamp:**
+**Without Olly AI:**
 - Support tickets from 12 customers about failed payments
 - Founder spends 6 hours reading Stripe changelog
 - Discovers the issue is in auto-generated webhook handler code
 - Hires Upwork developer for $400 emergency fix
 - Total cost: $400 + 6 hours + 12 frustrated customers
-**With Nightlamp:**
+**With Olly AI:**
 - Dependency tracker flags Stripe API changelog 72 hours before deprecation
 - Response team patches webhook signature validation
 - Code deployed to production 48 hours before old endpoint sunset
